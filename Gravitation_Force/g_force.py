@@ -37,8 +37,8 @@ class Particle():
             self.u[1] *= -1
 
 # Scene
-Ball = Particle([100, 50], 2, [1, 0], [0, 0], 1)
-Ball2 = Particle([600, 300], 20, [0, 0], [0, 0], 1000)
+Ball = Particle([300, 300], 10, [1, -2], [0, 0], 1)
+Ball2 = Particle([400, 300], 20, [0, 0], [0, 0], 1000)
 
 ForceFields = {
     "GravField": {
@@ -73,7 +73,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    # screen.fill((0, 0, 0))
+    screen.fill((0, 0, 0))
 
     Ball.render()
     Ball.update()
@@ -89,3 +89,4 @@ while run:
 pygame.quit() 
     
     
+
