@@ -8,3 +8,5 @@ The gravitation force was quite easy to do all i had to do was just to tweak som
 <img src="https://github.com/Vaibhav34543/Pygame_Physics/blob/main/Gravitation_Force/Illustration2.png?raw=true" width=30%>
 <img src="https://github.com/Vaibhav34543/Pygame_Physics/blob/main/Gravitation_Force/Illustration1.png?raw=true" width=30%>
 </div>
+
+The `gravitation(self, object1, object2)` from the `Forces` class does all the work behind here, using vectors it gives acceleration to the bodies in x, y directions and thus by tweaking the values we get a cool looking 2 planet, planetary motion 
